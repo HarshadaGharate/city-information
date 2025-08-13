@@ -8,9 +8,33 @@
         h1{
             text-align: center;
         }
+        #selectCountry{
+            font-size: 18px;
+            border-radius: 30px;
+            padding: 5px 7px;
+            display: block;
+            margin: 1px auto;
+        }
+        #country{
+            font-size: 22px;
+            display: block;
+            text-align: center;
+            margin: 5px auto;
+        }
     </style>
 </head>
 <body>
     <h1>Explore The World</h1>
+
+    <label for="selectCountry" id="country"> <b>Choose Country : </b></label>
+    <br> <br>
+    <select id="selectCountry">
+        <option value="select" id="sel">Select country</option>
+        <option value="india">India</option>
+        <option value="japan">Japan</option>
+        <option value="australia">Australia</option>
+        <option value="france">France</option>
+        <option value="thailand">Thailand</option>
+    </select>
 </body>
 </html>
